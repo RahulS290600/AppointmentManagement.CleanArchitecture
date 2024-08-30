@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35027.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{13E8C0B6-605D-40E3-A409-1AE6E2E26856}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{7EB6F578-6E2F-47E3-B358-A1C647DA1830}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{1BCFF819-F31E-4768-BB58-7501301F9515}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{B13B501B-2655-4FDA-AC3F-B9E1EDBDA925}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{E7AE60BC-2588-4BFE-8B8F-0A92D008AAFF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{6A79838C-6834-4A54-BBDF-EB6A1DEAF9BB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentManagement.Domain", "AppointmentManagement.Domain\AppointmentManagement.Domain.csproj", "{324BD25F-D085-4947-8C37-5DC889DE9CF8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppointmentManagement.Application", "AppointmentManagement.Application\AppointmentManagement.Application.csproj", "{CC12F293-F8BE-4B2F-BDA1-981AFDFC654C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppointmentManagement.Persistence", "AppointmentManagement.Persistence\AppointmentManagement.Persistence.csproj", "{6ED3F155-3F25-44C8-AD0D-6A3158CA9CBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{324BD25F-D085-4947-8C37-5DC889DE9CF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{324BD25F-D085-4947-8C37-5DC889DE9CF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{324BD25F-D085-4947-8C37-5DC889DE9CF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{324BD25F-D085-4947-8C37-5DC889DE9CF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC12F293-F8BE-4B2F-BDA1-981AFDFC654C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC12F293-F8BE-4B2F-BDA1-981AFDFC654C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC12F293-F8BE-4B2F-BDA1-981AFDFC654C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC12F293-F8BE-4B2F-BDA1-981AFDFC654C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6ED3F155-3F25-44C8-AD0D-6A3158CA9CBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6ED3F155-3F25-44C8-AD0D-6A3158CA9CBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6ED3F155-3F25-44C8-AD0D-6A3158CA9CBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6ED3F155-3F25-44C8-AD0D-6A3158CA9CBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7EB6F578-6E2F-47E3-B358-A1C647DA1830} = {13E8C0B6-605D-40E3-A409-1AE6E2E26856}
+		{1BCFF819-F31E-4768-BB58-7501301F9515} = {13E8C0B6-605D-40E3-A409-1AE6E2E26856}
+		{B13B501B-2655-4FDA-AC3F-B9E1EDBDA925} = {13E8C0B6-605D-40E3-A409-1AE6E2E26856}
+		{E7AE60BC-2588-4BFE-8B8F-0A92D008AAFF} = {13E8C0B6-605D-40E3-A409-1AE6E2E26856}
+		{324BD25F-D085-4947-8C37-5DC889DE9CF8} = {1BCFF819-F31E-4768-BB58-7501301F9515}
+		{CC12F293-F8BE-4B2F-BDA1-981AFDFC654C} = {1BCFF819-F31E-4768-BB58-7501301F9515}
+		{6ED3F155-3F25-44C8-AD0D-6A3158CA9CBC} = {B13B501B-2655-4FDA-AC3F-B9E1EDBDA925}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1FD6F68-9893-4C48-B8F4-30CFD6FC0824}
+	EndGlobalSection
+EndGlobal
